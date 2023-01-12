@@ -120,3 +120,66 @@ XaSYS(6:AES:4): sigterm received
 (ignored)
 AESSYS(4:AES:4): sigterm received
 (ignored)
+
+~~~~~~~~~~~~ XaAES start up ~~~~~~~~~~~~~~~~
+XaAES v1.6.4 Beta (m68040, Dec 28 2022 19:47:07) (MultiTasking AES for MiNT)
+Part of freemint (https://freemint.github.io/).
+stack is long-aligned:20F7061C
+PRG: km=20EE0000, base=20EE0160, text=20EE0260 -> 20F59530(496336), kentry:0.22,dos_version=40
+home_path: 'U:\c\mint\1-19-475\xaaes\'
+Loading config U:\c\mint\1-19-475\xaaes\xaaes.cnf
+sysfile_exists: 'U:\c\mint\1-19-475\xaaes\moose_w.adi'
+sysfile_exists: 'U:\c\mint\1-19-475\xaaes\moose.adi'
+both moose_w.adi and moose.adi found (better choose one)
+lang='en' (from config) code=0.
+load adi modules
+Loading AES Device Drivers:
+load_adi: enter (0x20F7B254, 0x20F7B154, moose.adi)
+load_adi: return 0
+load_adi: enter (0x20EDF254, 0x20EDF154, moose_w.adi)
+load_adi: return 0
+adi_load: done
+Creating XaAES kernel thread
+AESSYS:Installed 'nAES' cookie in readable memory at 110E000
+apid=-1,P_handle=0
+k_init: videomode=0
+could not determine nvdi version
+fvdi version = 968
+Auto detecting screen device
+Assume Falcon VDI compatibility
+Video mode not set in Falcon/Milan VDI. Forcing device = 1
+Screen device is: 1
+k_init: v_opnwk() device=1
+k_init: v_opnwk() handle=1
+Physical work station opened: 1
+Virtual work station opened: 2
+screen-type:4
+lookup-support:0, planes:32
+Video info: width(1024/768), planes :32, colours 256 pixel-format 0
+stdfont: id = 1, size = 10, cw=8, ch=16
+smlfont: id = 1, size = 8, cw=6, ch=6
+Display Device: Phys_handle=1, Virt_handle=2
+ size=[1024,768], colours=256, bitplanes=32
+Loading system resource file 'xaaes.rsc' lang='en'(0) trans=1
+xaaes_sysfile: check if 'U:\c\mint\1-19-475\xaaes\xaaes.rsc' exists - return = 0
+system resource = 20EC2004 (U:\c\mint\1-19-475\xaaes\xaaes.rsc)
+xaaes_sysfile: check if 'U:\c\mint\1-19-475\xaaes\xa_xtobj.rsc' exists - return = 0
+xaaes_sysfile: check if 'U:\c\mint\1-19-475\xaaes\xaaeswdg.rsc' exists - return = 0
+do_bkg_img:U:\c\mint\1-19-475\xaaes\1024768.32/xa_form.mfd not found
+AESSYS:read_inf:U:\c\mint\1-19-475\xaaes\xaaes.inf
+alert:6, KBD:7,pferr=0
+Wheel support present
+Using moose adi
+Loading AES modules...
+loading accs ---------------------------
+loading accessories from 'C:\'
+loading shell and autorun ---------------
+autorun[0]: cmd=(20FB00A8) 'u:\c\mint\1-19-475\sys-root\opt\GEM\toswin2\toswin2.app'
+   args[0]:    =(107ACE8) ''
+Launch shell 'u:\c\mint\1-19-475\sys-root\opt\GEM\teradesk\desktop.prg' with args 'No args'
+info_release:kfree(20E38DA8)->8000:551784272): pid=9:10: error
+info_release:kfree(20E390A8)->0:551783216): pid=11:12: error
+XaSYS(6:AES:4): sigterm received
+(ignored)
+AESSYS(4:AES:4): sigterm received
+(ignored)
