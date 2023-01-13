@@ -317,7 +317,7 @@ setenv PATH /sbin;/bin;/usr/sbin;/usr/bin
 # automatically, if found nowhere else, so it is useless to
 # explicitly add this here.
 
-setenv SLBPATH /c/mint/slb
+setenv SLBPATH /c/gemsys/slb/
 
 # It is advisable to set this here to a preferred name
 
@@ -351,6 +351,12 @@ setenv TMPDIR u:/tmp
 # The "exec" command is used to launch programs. Note that programs
 # so launched are started before GEM is, so they must be TOS/TTP
 # programs.
+
+# execute some systemtools
+exec u:/c/mint/booted/clocky.prg
+exec u:/c/mint/booted/nfjpeg.prg
+exec u:/c/mint/booted/nfpci.prg
+exec u:/c/mint/booted/zmagxsnd.prg
 
 # Start Draconis to MiNT-Net gateway
 
