@@ -1,5 +1,0 @@
-if(address("aniplay"))
-{
-	printf(GetFilePlayed());
-	wait(200);
-}

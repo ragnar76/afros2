@@ -1,7 +1,0 @@
-if(address("aniplay"))
-{
-	if(fsel(file, "Open file for Aniplayer", "*.*"))
-	{
-		Open(file);
-	}
-}

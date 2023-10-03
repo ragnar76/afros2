@@ -1,5 +1,0 @@
-if(address("aniplay"))
-{
-	printf(AppGetLongName());
-	wait(200);
-}
